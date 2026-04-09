@@ -35,6 +35,9 @@ main.glass-container {
 
 fieldset {
     padding: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 fieldset>legend {

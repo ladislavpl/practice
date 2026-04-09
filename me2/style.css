@@ -49,3 +49,13 @@ img#pfp {
     box-shadow: 10px 10px 25px #000;
     border: 2px dashed #FFF;
 }
+
+@media (max-width: 768px) {
+    main.glass-container {
+        width: 75vw;
+    }
+
+    fieldset {
+        width: 80%;
+    }
+}

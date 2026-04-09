@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Links to my websites">
+    <meta name="keywords" content="About, me, já">
+    <meta name="author" content="Ladislav Jaromír Pleštil">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Anta", sans-serif;
+            color: white;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("./background.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        main.glass-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            width: 50vw;
+            height: 80vh;
+            padding: 1em;
+            gap: 1em;
+            overflow-y: auto;
+            scrollbar-width: none;
+        }
+
+        a {
+            padding: 0.5em;
+            background-color: #a07842;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 16px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        a:hover {
+            border-color: #FFFFFF;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+        }
+
+        @media (max-width: 768px) {
+            main.glass-container {
+                width: 75vw;
+            }
+
+            a {
+                width: 80%;
+            }
+        }
+    </style>
+
+    <title>Website Hub</title>
+</head>
+<body>
+    <main class="glass-container">
+        <h1>The Hub</h1>
+        <a href="https://ladislavpl.github.io/practice/me">me</a>
+        <a href="https://ladislavpl.github.io/practice/me2">me2</a>
+    </main>
+</body>
+</html>

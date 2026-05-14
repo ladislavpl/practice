@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Výpočet IP adres</title>
+</head>
+<body>
+    <main>
+        <h1>IPv4 ADRESY A SUBNETY</h1>
+        <form>
+            <label for="ipaddr">IP adresa:</label>
+            <input type="text" name="ipaddr" id="ipaddr" required>
+            <label for="mask">Maska sítě:</label>
+            <input type="text" name="mask" id="mask" required>
+            <label for="networkaddr">Adresa sítě:</label>
+            <input type="text" name="networkaddr" id="networkaddr" readonly>
+            <label for="class">Třída ip adresy:</label>
+            <input type="text" name="class" id="class" readonly>
+            <label for="broadcast">Broadcast adresa:</label>
+            <input type="text" name="broadcast" id="broadcast" readonly>
+            <label for="addressnum">Celkem adres v síti:</label>
+            <input type="text" name="addressnum" id="addressnum" readonly>
+            <label for="ipsusable">Z toho použitelných:</label>
+            <input type="text" name="ipsusable" id="ipsusable" readonly>
+            <label for="firstusable">První použitelná IP:</label>
+            <input type="text" name="firstusable" id="firstusable" readonly>
+            <label for="lastusable">Poslední použitelná IP:</label>
+            <input type="text" name="lastusable" id="lastusable" readonly>
+            <input type="submit" value="Přepočítat">
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

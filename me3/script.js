@@ -1,0 +1,1 @@
+console.log("Ehhh tak díky za web...")

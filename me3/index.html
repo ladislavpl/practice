@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Webová stránka o mě">
+    <meta name="author" content="Ladislav Jaromír Pleštil">
+    <meta name="keywords" content="about, me">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>O mně</title>
+</head>
+<body>
+    <header>
+        <a href="#uvod">Úvod</a>
+        <a href="#konicky">Koníčky</a>
+        <a href="#hry">Oblíbené hry</a>
+        <a href="#kapely">Oblíbené kapely</a>
+        <a href="#form">Kontakt</a>
+    </header>
+    <main>
+        <section id="uvod">
+            <h1>O mně</h1>
+            <p>Ahoj, já jsem Láďa a jsem studentem IT na střední škole.</p>
+        </section>
+        <section id="konicky">
+            <fieldset>
+                <legend>Mé koníčky</legend>
+                <ul>
+                    <li>Hraní her</li>
+                    <li>Sledování anime</li>
+                    <li>Metal</li>
+                    <li>Turistika</li>
+                    <li>Čtení knih</li>
+                </ul>
+            </fieldset>
+        </section>
+        <section id="hry">
+            <fieldset>
+                <legend>Oblíbené hry</legend>
+                <ul>
+                    <li>Final Fantasy VII Remake</li>
+                    <li>Minecraft</li>
+                    <li>Euro Truck Simulator 2</li>
+                    <li>Spider-Man</li>
+                </ul>
+            </fieldset>
+        </section>
+        <section id="kapely">
+            <fieldset>
+                <legend>Oblíbené kapely</legend>
+                <ul>
+                    <li>Linkin Park</li>
+                    <li>Spiritbox</li>
+                    <li>Lorna Shore</li>
+                    <li>Bring Me The Horizon</li>
+                </ul>
+            </fieldset>
+        </section>
+        <section id="form">
+            <legend>Kontaktní formulář</legend>
+            <fieldset>
+                <form>
+                    <label for="name">Jméno a příjmení:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Zpráva:</label>
+                    <input type="text" name="message" id="message" required>
+                    <input type="submit" id="submit" value="Odeslat!">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
